@@ -24,7 +24,6 @@ function getNumberFromString(checkingString) {
       notSum='';
   for(let i = 0; i<string.length; i++) {
     if(parseInt(string[i])) {
-      console.log(string[i])
       sum += string[i];
     }
     else {
